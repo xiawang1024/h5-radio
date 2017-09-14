@@ -6,7 +6,7 @@
             <div class="qrcode ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.8s"></div>
         </div>
         <div class="text-wrap">
-            <div class="text ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+            <div class="text ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0s"></div>
             <div class="text1 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1s"></div>
             <div class="text2 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"></div>
             <div class="text3 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.5s" swiper-animate-delay="2s"></div>

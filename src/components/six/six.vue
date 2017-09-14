@@ -1,25 +1,25 @@
 <template>
     <div class="six">
         <div class="hd">
-            <div class="title"></div>
-            <div class="title-text"></div>
+            <div class="title ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="0.75s" swiper-animate-delay="0s"></div>
+            <div class="title-text ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.75s"></div>
         </div>
         <div class="text-wrap">
-            <div class="text"></div>
-            <div class="text1"></div>
-            <div class="text2"></div>
+            <div class="text ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.25s" swiper-animate-delay="0.5s"></div>
+            <div class="text1 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1s"></div>
+            <div class="text2 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"></div>
         </div>
         <div class="weixin-wrap">
-            <div class="scroll1"></div>
-            <div class="scroll2"></div>
-            <div class="scroll3"></div>
+            <div class="scroll1 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="5.5s" swiper-animate-delay="1.5s"></div>
+            <div class="scroll2 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="5.5s" swiper-animate-delay="1s"></div>
+            <div class="scroll3 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="5.5s" swiper-animate-delay="0.5s"></div>
             <div class="little-wrap">
-                <div class="little"></div>
-                <div class="antenna"></div>
+                <div class="little ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"></div>
+                <div class="antenna ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s" swiper-animate-delay="1s"></div>
             </div>
         </div>
-        <div class="voice"></div>
-        <div class="pages"></div>
+        <div class="voice ani" swiper-animate-effect="rollIn" swiper-animate-duration="0.5s" swiper-animate-delay="2s"></div>
+        <div class="pages ani" swiper-animate-effect="flipInY" swiper-animate-duration="0.5s" swiper-animate-delay="2s"></div>
     </div>
 </template>
 
@@ -114,6 +114,7 @@ export default {
             height 604px
             .little 
                 position absolute
+                z-index 100
                 top 0
                 left 0
                 width 594px
