@@ -1,7 +1,7 @@
 <template>
     <div class="two">
         <div class="hd">
-            <div class="title"></div>
+            <div class="title ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="2s" swiper-animate-delay="0s"></div>
             <div class="qrcode"></div>
             <div class="title-text"></div>
         </div>

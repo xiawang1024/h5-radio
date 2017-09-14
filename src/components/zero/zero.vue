@@ -1,22 +1,22 @@
 <template>
     <div class="zero">
         <div class="hd">
-            <div class="title"></div>
-            <div class="title-text"></div>
-            <div class="hand"></div>
+            <div class="title ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+            <div class="title-text ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s"></div>
+            <div class="hand ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s"></div>
         </div>
         <div class="link">
-            <div class="hndt" @click="slideTo(1)"></div>
-            <div class="wap" @click="slideTo(2)"></div>
-            <div class="app" @click="slideTo(3)"></div>
-            <div class="gongzhonghao" @click="slideTo(4)"></div>
-            <div class="weibo" @click="slideTo(5)"></div>
-            <div class="little" @click="slideTo(6)"></div>
+            <div class="hndt ani" @click="slideTo(1)" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+            <div class="wap ani" @click="slideTo(2)" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.25s"></div>
+            <div class="app ani" @click="slideTo(3)" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.5s"></div>
+            <div class="gongzhonghao ani" @click="slideTo(4)" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.75s"></div>
+            <div class="weibo ani" @click="slideTo(5)" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.0s"></div>
+            <div class="little ani" @click="slideTo(6)" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.25s"></div>
         </div>
-        <div class="person">
+        <div class="person ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0s">
 
         </div>
-        <div class="earth animated infinite bounce">
+        <div class="earth animated infinite bounce ani" swiper-animate-effect="bounce" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
 
         </div>
         <div class="stars">
