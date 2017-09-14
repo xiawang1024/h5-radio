@@ -1,24 +1,24 @@
 <template>
     <div class="five">
         <div class="hd">
-            <div class="title"></div>
-            <div class="title-text"></div>
-            <div class="qrcode"></div>
+            <div class="title ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"></div>
+            <div class="title-text ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"></div>
+            <div class="qrcode ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.8s"></div>
         </div>
         <div class="text-wrap">
-            <div class="text"></div>
-            <div class="text1"></div>
-            <div class="text2"></div>
-            <div class="text3"></div>
+            <div class="text ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+            <div class="text1 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1s"></div>
+            <div class="text2 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"></div>
+            <div class="text3 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.5s" swiper-animate-delay="2s"></div>
         </div>
         <div class="weibo-wrap">
-            <div class="border1"></div>
-            <div class="border2"></div>
-            <div class="border3"></div>
+            <div class="border1 ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s"></div>
+            <div class="border2 ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="1s"></div>
+            <div class="border3 ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s"></div>
             <div class="weibo">
-                <div class="avatar"></div>
-                <div class="weibo-title"></div>
-                <div class="weibo-desc"></div>
+                <div class="avatar ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="2.0s"></div>
+                <div class="weibo-title ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="2.5s"></div>
+                <div class="weibo-desc ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="3s"></div>
             </div>
         </div>
     </div>

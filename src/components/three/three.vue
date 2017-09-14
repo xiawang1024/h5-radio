@@ -1,18 +1,18 @@
 <template>
     <div class="three">
         <div class="hd">
-            <div class="title"></div>
-            <div class="title-text"></div>
+            <div class="title ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="0.75s" swiper-animate-delay="0s"></div>
+            <div class="title-text ani" swiper-animate-effect="flipInY" swiper-animate-duration="1.5s" swiper-animate-delay="0.75s"></div>
         </div>
         <div class="text-wrap">
-            <div class="text"></div>
-            <div class="text1"></div>
-            <div class="text2"></div>
+            <div class="text ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.5s" swiper-animate-delay="0s"></div>
+            <div class="text1 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2.5s" swiper-animate-delay="0.5s"></div>
+            <div class="text2 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="2.5s" swiper-animate-delay="0.5s"></div>
         </div>
         <div class="app-wrap">
-            <div class="qrcode"></div>
-            <div class="shadow"></div>
-            <div class="app"></div>
+            <div class="qrcode ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.5s"></div>
+            <div class="shadow ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.75s" swiper-animate-delay="0.75s"></div>
+            <div class="app ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="0.5s"></div>
         </div>
     </div>
 </template>

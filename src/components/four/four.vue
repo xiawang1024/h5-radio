@@ -1,24 +1,24 @@
 <template>
     <div class="four">
         <div class="hd">
-            <div class="title"></div>
-            <div class="title-text"></div>
+            <div class="title ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+            <div class="title-text ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
         </div>
         <div class="qrcode-wrap">
-            <div class="qrcode"></div>
+            <div class="qrcode ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s"></div>
             <div class="text-wrap">
-                <div class="text"></div>
-                <div class="text1"></div>
-                <div class="text2"></div>
-                <div class="text3"></div>
-                <div class="text4"></div>
+                <div class="text ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.5s"></div>
+                <div class="text1 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s" swiper-animate-delay="2s"></div>
+                <div class="text2 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s" swiper-animate-delay="2.5s"></div>
+                <div class="text3 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s" swiper-animate-delay="3s"></div>
+                <div class="text4 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s" swiper-animate-delay="3.5s"></div>
             </div>
-            <div class="border"></div>
+            <div class="border ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.5s" swiper-animate-delay="0.25s"></div>
         </div>
         <div class="weixin-wrap">
-            <div class="weixin"></div>
-            <div class="menu"></div>
-            <div class="click"></div>
+            <div class="weixin ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.5s"></div>
+            <div class="menu ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.0s" swiper-animate-delay="1.5s"></div>
+            <div class="click ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1.0s"></div>
         </div>
     </div>
 </template>

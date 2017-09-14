@@ -1,18 +1,18 @@
 <template>
     <div class="two">
         <div class="hd">
-            <div class="title ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="2s" swiper-animate-delay="0s"></div>
-            <div class="qrcode"></div>
-            <div class="title-text"></div>
+            <div class="title ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"></div>
+            <div class="qrcode ani" swiper-animate-effect="flipInX" swiper-animate-duration="1.5s" swiper-animate-delay="0s"></div>
+            <div class="title-text ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s"></div>
         </div>
         <div class="text-wrap">
-            <div class="text"></div>
-            <div class="text1"></div>
-            <div class="text2"></div>
+            <div class="text ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s"></div>
+            <div class="text1 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2.5s" swiper-animate-delay="0.5s"></div>
+            <div class="text2 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2.5s" swiper-animate-delay="0.5s"></div>
         </div>
         <div class="wap-wrap">
-            <div class="phone"></div>
-            <div class="wap"></div>
+            <div class="phone ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="0.5s"></div>
+            <div class="wap ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.5s"></div>
         </div>
     </div>
 </template>

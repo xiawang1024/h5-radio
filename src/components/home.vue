@@ -70,7 +70,7 @@ export default {
   },
   methods:{
       slideTo(index) {
-          let interval = 1000;
+          let interval = 800;
           if(index >=3 && index <= 4) {
               interval = 1500
           }else if(index >= 5 && index <= 6){
