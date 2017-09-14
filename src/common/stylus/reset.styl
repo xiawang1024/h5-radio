@@ -91,4 +91,31 @@ a, a:hover
     overflow: hidden
     height: 0
     content: ' '
+.animated 
+	-webkit-animation-duration: 1s
+	animation-duration: 1s
+	-webkit-animation-fill-mode: both
+	animation-fill-mode: both
+@keyframes wxScroll
+    0%
+        transform: translate3d(1080px,0, 0)
+    100%
+        transform: translate3d(-1080px,0, 0)
+.wxScroll
+    animation-name: wxScroll
+    animation-timing-function linear
+    transform-origin: center bottom
+    animation-iteration-count infinite
+@keyframes wxFade
+    0%
+        opacity 0
+    50%
+        opacity 1
+    100%
+        opacity 0
+.wxFade
+    animation-name wxFade
+    animation-iteration-count infinite
+
+
 

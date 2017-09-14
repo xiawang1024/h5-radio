@@ -12,13 +12,13 @@
             <div class="text3 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.5s" swiper-animate-delay="2s"></div>
         </div>
         <div class="weibo-wrap">
-            <div class="border1 ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s"></div>
-            <div class="border2 ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="1s"></div>
-            <div class="border3 ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s"></div>
+            <div class="border1 ani" swiper-animate-effect="wxFade" swiper-animate-duration="2s" swiper-animate-delay="2.75s"></div>
+            <div class="border2 ani" swiper-animate-effect="wxFade" swiper-animate-duration="2s" swiper-animate-delay="2.25s"></div>
+            <div class="border3 ani" swiper-animate-effect="wxFade" swiper-animate-duration="2s" swiper-animate-delay="1.75s"></div>
             <div class="weibo">
-                <div class="avatar ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="2.0s"></div>
-                <div class="weibo-title ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="2.5s"></div>
-                <div class="weibo-desc ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="3s"></div>
+                <div class="avatar ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="0.5s"></div>
+                <div class="weibo-title ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s"></div>
+                <div class="weibo-desc ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.25s"></div>
             </div>
         </div>
     </div>

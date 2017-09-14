@@ -10,9 +10,9 @@
             <div class="text2 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"></div>
         </div>
         <div class="weixin-wrap">
-            <div class="scroll1 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="5.5s" swiper-animate-delay="1.5s"></div>
-            <div class="scroll2 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="5.5s" swiper-animate-delay="1s"></div>
-            <div class="scroll3 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="5.5s" swiper-animate-delay="0.5s"></div>
+            <div class="scroll1 ani" swiper-animate-effect="wxScroll" swiper-animate-duration="6s" swiper-animate-delay="1.5s"></div>
+            <div class="scroll2 ani" swiper-animate-effect="wxScroll" swiper-animate-duration="5.5s" swiper-animate-delay="1s"></div>
+            <div class="scroll3 ani" swiper-animate-effect="wxScroll" swiper-animate-duration="5s" swiper-animate-delay="0.75s"></div>
             <div class="little-wrap">
                 <div class="little ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"></div>
                 <div class="antenna ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.5s" swiper-animate-delay="1s"></div>
@@ -88,7 +88,7 @@ export default {
         .scroll1
             position absolute
             top 397px
-            left -60px
+            left 0px
             width 1117px
             height 78px
             background url('./scroll1.png') center center no-repeat
