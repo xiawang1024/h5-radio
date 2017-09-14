@@ -1,34 +1,10 @@
 <template>
   <div class="home">
-      
-    <!-- <swiper :options="swiperOption" ref="mySwiper">
-        <swiper-slide>
-            <zero></zero>
-        </swiper-slide>
-        <swiper-slide>
-            <one></one>
-        </swiper-slide>
-        <swiper-slide>
-            <two></two>
-        </swiper-slide>
-        <swiper-slide>
-            <three></three>
-        </swiper-slide>
-        <swiper-slide>
-            <four></four>
-        </swiper-slide>
-        <swiper-slide>
-            <five></five>
-        </swiper-slide>
-        <swiper-slide>
-            <six></six>
-        </swiper-slide>        
-    </swiper> -->
     
     <div class="swiper-container" ref="swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <zero></zero>
+                <zero @slideTo="slideTo"></zero>
             </div>
             <div class="swiper-slide">
                 <one></one>
@@ -81,7 +57,7 @@ export default {
   },
   mounted() {
       setTimeout(() => {
-          var mySwiper = new Swiper('.swiper-container', {
+          this.mySwiper = new Swiper('.swiper-container', {
               onInit: function(swiper) { 
                   swiperAnimateCache(swiper); 
                   swiperAnimate(swiper); 
@@ -91,6 +67,17 @@ export default {
               }
           })        
       },20)
+  },
+  methods:{
+      slideTo(index) {
+          let interval = 1000;
+          if(index >=3 && index <= 4) {
+              interval = 1500
+          }else if(index >= 5 && index <= 6){
+              interval = 2000
+          }
+          this.mySwiper.slideTo(index, interval)
+      }
   }
 }
 </script>

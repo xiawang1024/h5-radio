@@ -6,12 +6,12 @@
             <div class="hand"></div>
         </div>
         <div class="link">
-            <div class="hndt"></div>
-            <div class="wap"></div>
-            <div class="app"></div>
-            <div class="gongzhonghao"></div>
-            <div class="weibo"></div>
-            <div class="little"></div>
+            <div class="hndt" @click="slideTo(1)"></div>
+            <div class="wap" @click="slideTo(2)"></div>
+            <div class="app" @click="slideTo(3)"></div>
+            <div class="gongzhonghao" @click="slideTo(4)"></div>
+            <div class="weibo" @click="slideTo(5)"></div>
+            <div class="little" @click="slideTo(6)"></div>
         </div>
         <div class="person">
 
@@ -29,7 +29,12 @@
 
 <script>
 export default {
-    name: 'zero'
+    name: 'zero',
+    methods:{
+        slideTo(index) {
+            this.$emit('slideTo', index)
+        }
+    }
 }
 </script>
 
