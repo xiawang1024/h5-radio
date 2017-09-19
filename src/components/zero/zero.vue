@@ -16,7 +16,7 @@
         <div class="person ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0s">
 
         </div>
-        <div class="earth animated infinite bounce ani" swiper-animate-effect="bounce" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+        <div class="earth ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
 
         </div>
         <div class="stars">
